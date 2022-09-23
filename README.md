@@ -18,3 +18,23 @@
 ## Demo
 
 ![](https://github.com/Frees4/RoutNumberRecognition/blob/main/demo.gif)
+
+## Исследование методов и алгоритмов быстрого распознавания номера маршрута приближающегося общественного транспорта
+
+Модели детекции: Yolov5 и PP-Yolo. Модели OCR: Tesseract, EasyOCR, PaddaPaddleOCR
+
+## Данные
+
+Для детекции собрано и размечено 535 изображений из открытых источников где выделен объект и для оптического распознавания текста на этих же изображениях размечен номер маршрута
+![Objects](images/objects.png)
+![Detections](images/detections.png)
+
+## Результаты
+### Точность моделей детекции (mAP)
+![Plot1](images/plot1.png)
+### Скорость моделей детекции (FPS)
+![Plot2](images/plot2.png)
+### Точность моделей OCR (Accuracy)
+![Plot3](images/plot3.png)
+### Скорость моделей OCR (FPS)
+![Plot4](images/plot4.png)
